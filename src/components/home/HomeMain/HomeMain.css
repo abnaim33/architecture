@@ -1,0 +1,27 @@
+.homeMain{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    color:#fff;
+    text-align: left;
+    overflow-x: visible !important;
+
+}
+.homeMain_header{
+    font-size:3.8rem ;
+ margin-bottom: 3rem;
+ text-transform: uppercase;
+}
+@media(max-width:800px){
+    .homeMain_header{
+        font-size: 3rem;
+    }
+}
+@media(max-width:400px){
+    .homeMain_header{
+        font-size: 2.5rem;
+    }
+}

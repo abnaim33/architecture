@@ -1,0 +1,14 @@
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    width:100%
+}
+footer span a{
+    color: rgb(3, 167, 153);
+    text-decoration: none;
+}
+footer span a:hover{
+    color: rgb(8, 116, 107);
+}

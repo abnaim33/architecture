@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+
+.navbar{
+    background: rgb(3, 167, 153);
+  padding: 1rem;
+  position: sticky !important;
+  top:0;
+
+}
+.nav-link{
+    font-family: 'Play', sans-serif;
+    color:white;
+    font-size: 1.2rem;
+  
+}
+.navbar-brand{
+    margin-right: 5rem;
+    color:#111;
+    font-size: 2rem;
+    padding: 0 .5rem;
+}
+.navbar-brand:hover{
+color:#111;
+background: rgb(5, 116, 106)
+}
+.register_link{
+    background: #fff ;
+    border-radius: .8rem 0 .8rem 0;
+    margin: 0 2rem 0 3rem;
+    transition: .5s;
+    border: 2px solid rgb(3, 167, 153);
+    margin: auto;
+    padding: .5rem .8rem !important;
+}
+.register_link:hover{
+    background: rgb(3, 167, 153);
+    color:white !important;
+    cursor: pointer;
+}
+.register_link a{
+    color:rgb(3, 167, 153) !important;
+}
+.register_link:hover a{
+    color:#fff !important;
+}
+.nav-item{
+    margin-left: 2rem ;
+  padding: 0 .5rem 0 .5rem;
+}
+.register{
+    text-decoration: none;
+}
+.nav-link{
+    border-radius: .3rem;
+}
+.nav-link:hover{
+    /* border: 2px solid white; */
+    background: rgb(48, 47, 47);
+}
+.nav-item:hover .nav-link{
+    color:rgb(226, 226, 226);
+  
+}
+
+.navbar-toggler-icon{
+    color:white !important;
+    font-size: 2rem !important;
+}
